@@ -1,7 +1,7 @@
 {
   "name": "festivalmusica",
   "version": "1.0.0",
-  "description": "Aprender sass y gulp",
+  "description": "Aprender sass, gulp, Optimizacion de codigo (Minificar archivos y compresion de imagenes)",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "glob": "^10.3.12",
     "gulp": "^5.0.0",
-    "sass": "^1.75.0"
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.75.0",
+    "sharp": "^0.33.3"
   },
   "dependencies": {
     "gulp-sass": "^5.1.0"
